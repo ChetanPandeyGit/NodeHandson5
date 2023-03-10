@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(65, 15, 116);
+    color: rgb(250, 22, 22);
+}
+
+#title{
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins';
+}
+
+#logo{
+    width: 120px;
+    height: 60px;
+    position: relative;
+    top: 15px;
+    right: 350px;
+    margin-right: 20px;
+}
+
+.container{
+    border: 2px ridge rgb(233, 190, 190);
+    max-width: 955px;
+    height: 60vh;
+    margin: auto;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 23px;
+}
+
+.message{
+    background-color: rgb(229, 198, 24);
+    font-family: 'Poppins';
+    padding: 10px;
+    width: 24%;
+    margin: 17px 2px;
+    border: 0;
+    border-radius: 10px;
+    word-wrap: break-word;
+}
+
+.left{
+    float: left;
+    clear: both;
+}
+
+.right{
+    float: right;
+    clear: both;
+}
+
+#send-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 1031px;
+    width: 100%;
+    height: 34px;
+}
+
+#messageInp{
+    width: 89%;
+    border: 2px solid black;
+    border-radius: 7px;
+    height: inherit;
+    box-shadow: 1px 1px 2px darkcyan;
+}
+
+.btn{
+    cursor: pointer;
+    border: 0;
+    border-radius: 6px;
+    height: 34px;
+    background-color: rgb(23, 241, 139);
+    color: rgb(255, 31, 31);
+    width: 9%;
+    height: 40px;
+}
